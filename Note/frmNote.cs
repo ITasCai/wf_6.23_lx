@@ -72,5 +72,56 @@ namespace Note
             Clipboard.SetText(txtshow.SelectedText);
             
         }
+
+        private void 隐藏ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Hide();
+        }
+
+        private void 退出ToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void 显示ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Show();
+        }
+
+        private void 剪切UToolStripButton_Click(object sender, EventArgs e)
+        {
+            剪切ToolStripMenuItem_Click(null,null);
+        }
+
+        private void 复制CToolStripButton_Click(object sender, EventArgs e)
+        {
+            复制CToolStripButton_Click(null,null);
+        }
+
+        private void 粘贴PToolStripButton_Click(object sender, EventArgs e)
+        {
+            粘贴PToolStripButton_Click(null,null);
+        }
+
+        private void toolStripButton1_Click(object sender, EventArgs e)
+        {
+            字体ToolStripMenuItem_Click(null,null);
+        }
+
+        private void txtshow_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tsstime_Click(object sender, EventArgs e)
+        {
+            //显示当前时间
+            tsstime.Text+= DateTime.Now.ToLongDateString();
+        }
+
+        private void 保存SToolStripButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
