@@ -3,7 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wf_6.23_lx", "wf_6.23_lx\wf_6.23_lx.csproj", "{55469E00-9FBF-4552-A10D-E763DF2C2E16}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListviewDeam", "wf_6.23_lx\ListviewDeam.csproj", "{55469E00-9FBF-4552-A10D-E763DF2C2E16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListviewDm", "ListviewDm\ListviewDm.csproj", "{D2879754-0B31-40A3-9793-3161267DE6C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QQDeam", "QQDeam\QQDeam.csproj", "{D4587212-5D01-47BC-9DB1-4968967A2860}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowDeam", "WindowDeam\WindowDeam.csproj", "{4328FF87-9A6F-4252-8210-763030C3F5AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgressBarDeam", "ProgressBarDeam\ProgressBarDeam.csproj", "{C0ACECB0-CA9C-4F2D-863E-2D26D1AAEAB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TabComDeam", "TabComDeam\TabComDeam.csproj", "{D704D728-4D3E-451A-93FD-EE5935DB451A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotePad", "Note\NotePad.csproj", "{CB54D8BD-699F-41A9-975B-D7CA017C140C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +27,30 @@ Global
 		{55469E00-9FBF-4552-A10D-E763DF2C2E16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55469E00-9FBF-4552-A10D-E763DF2C2E16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55469E00-9FBF-4552-A10D-E763DF2C2E16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2879754-0B31-40A3-9793-3161267DE6C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2879754-0B31-40A3-9793-3161267DE6C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2879754-0B31-40A3-9793-3161267DE6C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2879754-0B31-40A3-9793-3161267DE6C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4587212-5D01-47BC-9DB1-4968967A2860}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4587212-5D01-47BC-9DB1-4968967A2860}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4587212-5D01-47BC-9DB1-4968967A2860}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4587212-5D01-47BC-9DB1-4968967A2860}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4328FF87-9A6F-4252-8210-763030C3F5AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4328FF87-9A6F-4252-8210-763030C3F5AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4328FF87-9A6F-4252-8210-763030C3F5AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4328FF87-9A6F-4252-8210-763030C3F5AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0ACECB0-CA9C-4F2D-863E-2D26D1AAEAB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0ACECB0-CA9C-4F2D-863E-2D26D1AAEAB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0ACECB0-CA9C-4F2D-863E-2D26D1AAEAB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0ACECB0-CA9C-4F2D-863E-2D26D1AAEAB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D704D728-4D3E-451A-93FD-EE5935DB451A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D704D728-4D3E-451A-93FD-EE5935DB451A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D704D728-4D3E-451A-93FD-EE5935DB451A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D704D728-4D3E-451A-93FD-EE5935DB451A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB54D8BD-699F-41A9-975B-D7CA017C140C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB54D8BD-699F-41A9-975B-D7CA017C140C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB54D8BD-699F-41A9-975B-D7CA017C140C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB54D8BD-699F-41A9-975B-D7CA017C140C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
